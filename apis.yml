@@ -1,8 +1,27 @@
 aid: power-lattice
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/power-lattice.png
 name: Power Lattice
-description: 'Power Lattice is a company surfaced as a portfolio company of playground-global and added
-  to the API Evangelist network as a stub for enrichment. Sector: compute. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Power Lattice (Powerlattice) is a semiconductor and power-management
+  startup building power delivery solutions for AI accelerators and GPUs. Its core
+  product is an industry-first power delivery chiplet that integrates voltage regulation
+  directly into the processor package, addressing the data-center "power wall" as AI
+  chips push past 2,000 watts. The Rainier micro-IVR architecture combines miniaturized
+  on-die magnetic inductors, advanced control-circuit innovations, a vertical design,
+  and a programmable software layer to deliver 50%+ power reduction, 2-3X performance-per-watt
+  gains, and extended system lifetime. Backed by Playground Global, the company raised
+  $25M to break the AI power wall. This is a hardware company with no public developer
+  API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/power-lattice/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Compute
+- Semiconductor
+- Power Management
+- AI Infrastructure
+- Hardware
+- Data Center
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/power-lattice-domain-security.yml
 - type: Website
   url: https://powerlatticeinc.com/
+- type: About
+  url: https://powerlatticeinc.com/about
+- type: News
+  url: https://powerlatticeinc.com/news
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
