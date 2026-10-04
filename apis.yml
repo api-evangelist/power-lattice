@@ -50,7 +50,7 @@ tags:
 - Power Management
 - AI Infrastructure
 - Hardware
-- Data-Center
+- Data Center
 tags_raw:
 - Company
 - Compute
@@ -59,6 +59,7 @@ tags_raw:
 - AI Infrastructure
 - Hardware
 - Data Center
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
